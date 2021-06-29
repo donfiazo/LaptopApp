@@ -1,9 +1,10 @@
-package com.example.laptoprepairapp
+package com.example.laptoprepairapp.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.laptoprepairapp.R
 
 class Home : AppCompatActivity() {
 

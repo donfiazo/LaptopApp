@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.laptoprepairapp.activities.Home
 
 class MainActivity : AppCompatActivity() {
     private lateinit var welcomeButton: Button
