@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import com.example.laptoprepairapp.activities.Home
+import com.example.laptoprepairapp.activities.Signup
 
 class MainActivity : AppCompatActivity() {
     private lateinit var welcomeButton: Button
@@ -16,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         welcomeButton = findViewById(R.id.welcomeButton)
 
         welcomeButton.setOnClickListener {
-            var intent = Intent(this, Home::class.java)
+            var intent = Intent(this, Signup::class.java)
             startActivity(intent)
         }
     }

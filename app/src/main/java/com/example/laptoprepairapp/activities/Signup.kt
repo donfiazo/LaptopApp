@@ -18,7 +18,7 @@ class Signup : AppCompatActivity() {
         submitButton = findViewById(R.id.submitButton)
         
         submitButton.setOnClickListener {
-            var intent = Intent(this, MainActivity::class.java)
+            var intent = Intent(this, Home::class.java)
 
             startActivity(intent)
         }

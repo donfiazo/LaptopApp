@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.laptoprepairapp.MainActivity
 import com.example.laptoprepairapp.R
 
 class Home : AppCompatActivity() {
@@ -17,7 +18,7 @@ class Home : AppCompatActivity() {
         continueButton = findViewById(R.id.continueButton)
 
         continueButton.setOnClickListener {
-            var intent = Intent(this, Signup::class.java)
+            var intent = Intent(this, MainActivity::class.java)
 
             startActivity(intent)
         }
